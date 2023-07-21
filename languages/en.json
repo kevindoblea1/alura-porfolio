@@ -8,16 +8,16 @@
     },
 
     "home": {
-        "home_text-1": "Hi! I'm",
+        "home_text-1": "Hello! Am",
         "home_text-3": "🧑‍💻 Computer Engineer | <br> 👨‍💻 Programmer | <br> 🖥️📱 Web Designer |",
-        "parrafo-info": "Web developer passionate about creating innovative and attractive digital solutions. I have two years of experience working with HTML, CSS, JavaScript and PHP in projects for clients from various industries.",
-        "cv_button": "Download CV",
-        "contact_button": "Contact"
+        "parrafo-info": "I am a passionate web developer, always looking to create innovative and engaging digital solutions. My goal is to continue honing my technical skills, both as a web developer and support specialist, to provide comprehensive and high-level solutions to companies and clients who trust in my work. I am excited about the growth opportunities and challenges that await me in this exciting world of technology.",
+        "cv_button": "Download Resume",
+        "contact_button": "Contact me"
     },
 
     "sobre-mi": {
         "title": "About me",
-        "texto_sobreMi": "Web developer passionate about creating innovative and attractive digital solutions. I have two years of experience working with HTML, CSS, JavaScript and PHP on projects for clients from various industries. I like to keep up with the latest trends and technologies in the field of web development and constantly learn new skills. My goal is to continue growing as a professional and add value to the companies that trust in my work. <br><br>In addition, I am good at working in work teams and I easily adapt to different environments and situations."
+        "texto_sobreMi": "Web developer passionate about creating innovative and engaging digital solutions. I have five years of experience in technical support for various companies and the industry. I like to keep up with the latest trends and technologies in the field of web development and constantly learn new skills. My goal is to continue perfecting my development skills, to provide comprehensive and high-level solutions to companies and clients who trust my work. I am excited about the growth opportunities and challenges that await me in this exciting world of technology. I have good soft-skills, assertive communication, conflict management, oratory and some others that allow me to adapt to work teams."
     },
 
     "habilidades": {
@@ -27,25 +27,25 @@
     "formacion": {
         "title": "Training",
         "formacion1": "Informatics Engineering",
-        "tiempo-formacion1": "2018 - In progress",
-        "formacion2": "Full Stack Web Development",
-        "tiempo-formacion2": "2022 - 2023",
-        "formacion3": "Full Stack Web Development Códigofacilito"
+        "tiempo-formacion1": "2018 - En curso",
+        "formacion2": "Front End Web Development",
+        "tiempo-formacion2": "2023 - 2024",
+        "formacion3": "Cisco NetAcad - CCNA V7"
     },
 
     "proyectos": {
         "title": "Projects",
-        "title-proyecto1": "Hangman Game",
-        "info-proyecto1": "A game where the user must guess the secret word with a certain number of chances. The word is chosen randomly by the program and the user will lose the moment the gallows is completed.",
-        "title-proyecto2": "Portfolio",
-        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a bit about my background.",
+        "title-proyecto1": "Snake Game",
+        "info-proyecto1": "It is the classic game of snake where you must eat to grow and avoid hitting the walls or against your tail.",
+        "title-proyecto2": "Portafolio",
+        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a little about my training.",
         "title-proyecto3": "Text Encryptor",
-        "info-proyecto3": "An encryptor where the user can type a text and the encryptor encrypts it with pre-programmed keys. The encryptor can also decrypt the text."
+        "info-proyecto3": "An encryptor where the user can write a text and the encryptor encodes it with already programmed keys. The encryptor also allows to decrypt the text."
     },
 
     "contacto": {
         "title": "Contact",
-        "text": "Complete the form below and I will contact you as soon as possible.",
+        "text": "Complete the following form and I will contact you as soon as possible.",
         "btn-enviar": "Send"
     }
 }
