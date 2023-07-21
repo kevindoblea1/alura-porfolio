@@ -269,6 +269,8 @@ span+span {
     height: auto;
 }
 
+
+
 .container_image-home {
     width: 100%;
     height: auto;
@@ -278,7 +280,8 @@ span+span {
 }
 
 .image_home {
-    max-width: 65%;
+    max-width: 75%;
+    max-height: 75%;
     transition: .4s;
     animation: image 2s;
     background-color: var(--eerie-black);
@@ -308,6 +311,8 @@ span+span {
     font-size: 3rem;
     margin-bottom: 0.25rem;
 }
+
+
 
 .home_text-3 {
     font-family: 'Cooper Hewitt';
@@ -962,6 +967,18 @@ footer {
 .show i {
     transform: translate(-50%, -50%) scale(1);
 }
+.elegir-curriculo {
+    margin-top: 15%;
+    font-display: flex;
+    justify-content: center;
+    align-items:flex-end;
+}
+.volver {
+    font-display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    
+}
 
 @keyframes popup {
     0% {
@@ -976,6 +993,9 @@ footer {
         width: 6rem;
         height: 6rem;
     }
+}
+.puntos-fotos {
+    max-height: 75%;  
 }
 /* Estilo para pantallas con ancho menor a 768px */
 @media (max-width: 767px) {

@@ -40,7 +40,13 @@
         "title-proyecto2": "Portafolio",
         "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
         "title-proyecto3": "Encriptador de Texto",
-        "info-proyecto3": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto."
+        "info-proyecto3": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto.",
+        "title-proyecto4": "Cifrado Cesar",
+        "info-proyecto4": "Es el clasico juego de snake o la culebrita donde debes ir comiendo para crecer y evitar chocar contra las paredes o contra tu cola.",
+        "title-proyecto5": "Portafolio",
+        "info-proyecto5": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
+        "title-proyecto6": "Encriptador de Texto",
+        "info-proyecto6": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto."
     },
 
     "contacto": {
