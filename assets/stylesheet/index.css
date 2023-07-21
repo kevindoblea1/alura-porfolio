@@ -278,12 +278,11 @@ span+span {
 }
 
 .image_home {
-    max-width: 65%;
+    max-width: 45%;
     transition: .4s;
     animation: image 2s;
-    border-radius: 50%;
     background-color: var(--eerie-black);
-    box-shadow: 1px 3px 5px 1px var(--light-grey ) (32,32,32,0.3);
+    box-shadow: 10px 5px 5px red;
 }
 
 .icon-redes{
@@ -978,3 +977,23 @@ footer {
         height: 6rem;
     }
 }
+/* Estilo para pantallas con ancho menor a 768px */
+@media (max-width: 767px) {
+    .image_home {
+      display: none;
+    }
+    .puntos-fotos {
+        display: none;  
+    }
+  }
+  /* Estilo para pantallas con ancho mayor o igual a 768px */
+@media (min-width: 768px) {
+    .image_home {
+      display: block;
+    }
+    .puntos-fotos {
+        display: block;  
+    }
+  }
+  
+  
