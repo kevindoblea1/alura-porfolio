@@ -278,7 +278,7 @@ span+span {
 }
 
 .image_home {
-    max-width: 45%;
+    max-width: 65%;
     transition: .4s;
     animation: image 2s;
     background-color: var(--eerie-black);
