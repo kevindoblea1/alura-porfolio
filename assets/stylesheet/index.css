@@ -980,19 +980,19 @@ footer {
 /* Estilo para pantallas con ancho menor a 768px */
 @media (max-width: 767px) {
     .image_home {
-      display: none;
+      display: none !important;
     }
     .puntos-fotos {
-        display: none;  
+        display: none!important;  
     }
   }
   /* Estilo para pantallas con ancho mayor o igual a 768px */
 @media (min-width: 768px) {
     .image_home {
-      display: block;
+      display: block !important;
     }
     .puntos-fotos {
-        display: block;  
+        display: block !important;  
     }
   }
   
