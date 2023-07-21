@@ -8,10 +8,10 @@ nav.nav_menu.active {
 
 /* Home */
 
-.image_home {
+/*.image_home {
     max-width: 40rem;
     aspect-ratio: 1 / 1;
-}
+}*/
 
 .container_text-info {
     display: flex;
