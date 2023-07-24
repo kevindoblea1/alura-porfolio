@@ -369,6 +369,8 @@ span+span {
     display: none;
 }
 
+
+
 .links {
     display: flex;
     justify-content: center;
@@ -1005,6 +1007,11 @@ footer {
     .puntos-fotos {
         display: none!important;  
     }
+    
+    .resume-btn {
+        flex-direction: column !important;
+    }
+
   }
   /* Estilo para pantallas con ancho mayor o igual a 768px */
 @media (min-width: 768px) {
@@ -1014,6 +1021,9 @@ footer {
     .puntos-fotos {
         display: block !important;  
     }
+    .resume-btn {
+        display: inline-block;
+    }
+
   }
-  
   
