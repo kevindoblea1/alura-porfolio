@@ -1,0 +1,9 @@
+<svg width="200" height="50" xmlns="http://www.w3.org/2000/svg">
+  <!-- Primer cuadrado con letra "K" -->
+  <rect x="5" y="5" width="40" height="40" fill="#0f1c30" stroke="white" stroke-width="2" />
+  <text x="25" y="28" font-family="CooperHewitt-Light" font-size="30" fill="white" text-anchor="middle" alignment-baseline="middle">K</text>
+
+  <!-- Segundo cuadrado con letra "A" -->
+  <rect x="55" y="5" width="40" height="40" fill="white" stroke="white" stroke-width="2" />
+  <text x="75" y="28" font-family="CooperHewitt-Light" font-size="30" fill="#0f1c30" text-anchor="middle" alignment-baseline="middle">A</text>
+</svg>
