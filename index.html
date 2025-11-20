@@ -1,6 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
+﻿<!DOCTYPE html>
+<html lang="es">
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -25,24 +24,16 @@
   <meta name="msapplication-TileColor" content="#ffffff" />
   <meta name="msapplication-TileImage" content="./assets/images/favicon/ms-icon-144x144.png" />
   <meta name="theme-color" content="#ffffff" />
-  <!-- Librerías -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-
-  <!-- Hojas de estilo -->
   <link rel="stylesheet" href="./assets/stylesheet/loader.css" />
   <link rel="stylesheet" href="./assets/stylesheet/index.css" />
   <link rel="stylesheet" href="./assets/stylesheet/tablet.css" media="screen and (min-width: 760px)" />
   <link rel="stylesheet" href="./assets/stylesheet/desktop.css" media="screen and (min-width: 980px)" />
-
-  <!-- Fuentes -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet" />
-
-  <!-- Fontawesome -->
   <script src="https://kit.fontawesome.com/046ca28af0.js" crossorigin="anonymous"></script>
 </head>
-
 <body>
   <div class="container--loader">
     <div class="loader"></div>
@@ -52,20 +43,19 @@
     <img src="./assets/images/logo-ka.svg" alt="Logo Portafolio Kevin Alvarenga" class="logo__header" />
 
     <nav class="nav_menu not-active">
-      <a href="index.html" class="active">Home</a>
-      <a href="#sobreMi" data-section="menu" data-value="item2">About me</a>
-      <a href="#habilidades" data-section="menu" data-value="item3">Skills</a>
-      <a href="#formacion" data-section="menu" data-value="item4">Training</a>
-      <a href="#proyectos" data-section="menu" data-value="item5">Projects</a>
-      <a href="#contacto" data-section="menu" data-value="item6">Contact</a>
+      <a href="index.html" class="active" data-section="menu" data-value="item1">Home</a>
+      <a href="#sobreMi" data-section="menu" data-value="item2">Perfil</a>
+      <a href="#habilidades" data-section="menu" data-value="item3">Aptitudes</a>
+      <a href="#formacion" data-section="menu" data-value="item4">Educación</a>
+      <a href="#experiencia" data-section="menu" data-value="item5">Experiencia</a>
+      <a href="#contacto" data-section="menu" data-value="item6">Contacto</a>
 
-      <!-- Idiomas de la página -->
       <div id="flags" class="flags">
         <div class="flags__item" data-language="es">
-          <img src="./assets/images/icon-spain.png" alt="Español/Spain" />
+          <img src="./assets/images/icon-spain.png" alt="Español" />
         </div>
         <div class="flags__item" data-language="en">
-          <img src="./assets/images/icon-en.png" alt="Inglés/English" />
+          <img src="./assets/images/icon-en.png" alt="Inglés" />
         </div>
       </div>
     </nav>
@@ -78,50 +68,46 @@
   </header>
 
   <main>
-    <!-- Home -->
     <section class="home" id="home">
       <picture class="container_image-home" data-aos="zoom-in">
-        <img class="image_home" src="./assets/images/foto3.webp" alt="Ilustración hombre y plantas" width="850" height="760" />
+        <img class="image_home" src="./assets/images/prfile.jpg" alt="Retrato de Kevin Alvarenga" />
         <img src="./assets/images/puntos.webp" alt="Decoración puntos" class="puntos-fotos" />
       </picture>
 
       <div class="home_info">
         <div class="container_text-info">
-          <p class="home_text-1" data-section="home" data-value="home_text-1">
-            Hello! I am
-          </p>
-          <p class="home_text-2">Kevin Alvarenga</p>
+          <p class="home_text-1" data-section="home" data-value="home_text1">&#161;Hola! Soy</p>
+          <p class="home_text-2">Kevin Ariel Alvarenga Espinoza</p>
         </div>
 
         <div>
-          <p class="home_text-3 text-type" data-section="home" data-value="home_text-3">
-            🧑‍💻 Computer Engineer| <br />
-            👨‍💻 Programmer | <br />
-            🖥️📱 Web designer |
+          <p class="home_text-3" data-section="home" data-value="home_text3">
+            Information Technology Coordinator &#8226; Soporte &amp; Infraestructura &#8226; Ingenier&#237;a en Inform&#225;tica (en curso)
           </p>
         </div>
 
         <div class="container_parrafo-info">
-          <p data-section="home" align="justify" data-value="parrafo-info">
-            I am a passionate web developer, always looking to create
-            innovative and engaging digital solutions. My goal is to continue
-            honing my technical skills, both as a web developer and support
-            specialist, to provide comprehensive and high-level solutions to
-            companies and clients who trust in my work. I am excited about the
-            growth opportunities and challenges that await me in this exciting
-            world of technology.
+          <p align="justify" data-section="home" data-value="home_summary">
+            Ingeniero en Tecnolog&#237;as de la Informaci&#243;n con experiencia en gesti&#243;n de infraestructura empresarial, Active Directory y virtualizaci&#243;n con VMware ESXi. Lidero operaciones de soporte, administraci&#243;n de servidores, pol&#237;ticas de respaldo y optimizaci&#243;n de centros de datos. Actualmente curso Ingenier&#237;a en Inform&#225;tica en CEUTEC y contin&#250;o form&#225;ndome en desarrollo web y redes.
           </p>
+          <ul class="home_contact">
+            <li data-section="home" data-value="contact_location">San Pedro Sula, Cort&#233;s, Honduras</li>
+            <li data-section="home" data-value="contact_phone">Tel: <a href="tel:+50494697805">+504-9469-7805</a></li>
+            <li data-section="home" data-value="contact_email">Email: <a href="mailto:kevin.alvarenga93@gmail.com">kevin.alvarenga93@gmail.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/kevindoblea" target="_blank" rel="noopener">www.linkedin.com/in/kevindoblea</a></li>
+            <li>Portafolio: <a href="https://kevindoblea1.github.io/alura-porfolio" target="_blank" rel="noopener">kevindoblea1.github.io/alura-porfolio</a></li>
+          </ul>
         </div>
 
         <div class="container_button">
           <a href="./resumen.html" target="_blank">
             <button class="cv_button" data-section="home" data-value="cv_button">
-              Download Resume
+              Ver resumen completo
             </button>
           </a>
           <a href="#contacto">
             <button class="contact_button" data-section="home" data-value="contact_button">
-              Contact me
+              Contáctame
             </button>
           </a>
         </div>
@@ -143,341 +129,206 @@
       </div>
     </section>
 
-    <!-- Sobre mí -->
     <section class="sobreMi" id="sobreMi">
-      <h1 data-section="sobre-mi" data-value="title">About me</h1>
+      <h1 data-section="sobre-mi" data-value="title">Perfil profesional</h1>
 
       <div class="container_content-sobreMi">
         <div class="container_texto-sobreMi">
-          <span class="title_sobreMi">Kevin Alvarenga</span>
-          <p align="justify">
-            <span class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
-              Web developer passionate about creating innovative and engaging
-              digital solutions. I have five years of experience in technical
-              support for various companies and the industry. I like to keep
-              up with the latest trends and technologies in the field of web
-              development and constantly learn new skills. My goal is to
-              continue perfecting my development skills, to provide
-              comprehensive and high-level solutions to companies and clients
-              who trust my work. I am excited about the growth opportunities
-              and challenges that await me in this exciting world of
-              technology. I have good soft-skills, assertive communication,
-              conflict management, oratory and some others that allow me to
-              adapt to work teams.
-            </span>
+          <span class="title_sobreMi" data-section="sobre-mi" data-value="subtitle">Resumen</span>
+          <p align="justify" class="texto_sobreMi" data-section="sobre-mi" data-value="texto_sobreMi">
+            Ingeniero en Tecnologías de la Información especializado en soporte tecnico, Administracion de servidores, Implementacion de seguridad y operación de centros de datos. Experto en Active Directory y virtualizacion VMware ESXi, con experiencia en migraciones y mantenimiento de máquinas virtuales. Actualmente curso Ingeniería en Informática en CEUTEC y me formo continuamente en desarrollo web, ciencias computacionales y redes gracias a programas de Platzi, Alura y Cisco Networking Academy. Mi objetivo profesional es crecer como ingeniero de software y aportar soluciones tecnologicas que agreguen valor a las organizaciones.
           </p>
         </div>
 
         <picture class="container_image-sobreMi" data-aos="fade-right">
-          <img class="image_sobreMi" src="./assets/images/image-home.png" alt="Ilustración mujer y café" />
+          <img class="image_sobreMi" src="./assets/images/image-home.png" alt="Ilustración tecnologica" />
         </picture>
       </div>
     </section>
 
-    <!-- Habilidades -->
     <section class="habilidades" id="habilidades">
-      <h1 data-section="habilidades" data-value="title">Skills</h1>
+      <h1 data-section="habilidades" data-value="title">Aptitudes técnicas y blandas</h1>
 
       <img src="./assets/images/puntos.webp" alt="Decoración puntos" class="puntos1-habilidades" />
       <img src="./assets/images/puntos.webp" alt="Decoración puntos" class="puntos2-habilidades" />
 
-      <div class="cards_container--habilidades">
+            <div class="cards_container--habilidades">
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
-          <img src="./assets/images/icon-html.png" alt="Icono de HTML" />
-          <p>HTML 5</p>
+          <i class="soft-icon fas fa-comments"></i>
+          <p>Comunicaci&oacute;n asertiva</p>
         </div>
-
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
-          <img src="./assets/images/icon-css.png" alt="Icono de CSS" />
-          <p>CSS 3</p>
+          <i class="soft-icon fas fa-users"></i>
+          <p>Trabajo en equipo</p>
         </div>
-
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-          <img src="./assets/images/icon-js.png" alt="Icono de JavaScript" class="icon-redes" />
-          <p>JavaScript</p>
+          <i class="soft-icon fas fa-lightbulb"></i>
+          <p>Resoluci&oacute;n de problemas</p>
         </div>
-
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-          <img src="./assets/images/redes.webp" alt="Icono de PHP" />
-          <p>Networks</p>
+          <i class="soft-icon fas fa-tasks"></i>
+          <p>Gesti&oacute;n de proyectos</p>
         </div>
-
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="500">
-          <img src="./assets/images/icon-linux.png" alt="Icono de Laravel" />
-          <p>Linux</p>
+          <i class="soft-icon fas fa-sync-alt"></i>
+          <p>Adaptabilidad</p>
         </div>
-
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="700">
-          <img src="./assets/images/icon-git.png" alt="Icono de Git" />
-          <p>Git</p>
+          <i class="soft-icon fas fa-hands-helping"></i>
+          <p>Orientaci&oacute;n al cliente</p>
         </div>
-
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="900">
-          <img src="./assets/images/icon-github-hab.png" alt="Icono de GitHub" />
-          <p>Github</p>
+          <i class="soft-icon fas fa-search"></i>
+          <p>Atenci&oacute;n al detalle</p>
         </div>
-
         <div class="cards--habilidades" data-aos="fade-up" data-aos-duration="1100">
-          <img src="./assets/images/icon-mysql.png" alt="Icono de MYSQL" />
-          <p>MySQL</p>
+          <i class="soft-icon fas fa-graduation-cap"></i>
+          <p>Aprendizaje continuo</p>
         </div>
       </div>
     </section>
 
-    <!-- Formación -->
     <section class="formacion" id="formacion">
-      <h1 data-section="formacion" data-value="title">Training</h1>
+      <h1 data-section="formacion" data-value="title">Educación y formación</h1>
 
       <div class="cards_container--formacion">
         <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-          <img class="logo-ceutec" src="./assets/images/logo-carrera.webp" alt="Logo - UPTNT Manuela Saenz" />
+          <img class="logo-ceutec" src="./assets/images/logo-carrera.webp" alt="Logo CEUTEC" />
           <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion1">
-              Informatics Engineering
-            </p>
-            <p data-section="formacion" data-value="tiempo-formacion1">
-              2018 - In progress
-            </p>
+            <p data-section="formacion" data-value="formacion1">CEUTEC — Ingeniería Informática (en curso)</p>
+            <p data-section="formacion" data-value="tiempo-formacion1">Formación en sistemas operativos, programación y redes.</p>
           </div>
         </div>
 
         <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
-          <img class="logo-one" src="./assets/images/logo-one.webp" alt="Logo - ONE: Oracle Next Education" />
+          <img class="logo-tdw" src="./assets/images/tdw cutec.jpg" alt="Logo TDW CEUTEC" />
           <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion2">
-              Front End Web Development
-            </p>
-            <p data-section="formacion" data-value="tiempo-formacion2">
-              2023 - 2024
-            </p>
+            <p data-section="formacion" data-value="formacion2">CEUTEC — Tecnicatura en Desarrollo de Aplicaciones Web</p>
+            <p data-section="formacion" data-value="tiempo-formacion2">2023 – 2025</p>
           </div>
         </div>
 
         <div class="cards--formacion" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="500">
-          <img class="logo-cisco" src="./assets/images/ccna-logo.png" alt="Logo - ccna" />
+          <img class="logo-cisco" src="./assets/images/ccna-logo.png" alt="Logo Cisco" />
           <div class="container_texto--formacion">
-            <p data-section="formacion" data-value="formacion3">
-              Cisco NetAcad - CCNA V7
-            </p>
-            <p>2023</p>
+            <p data-section="formacion" data-value="formacion3">Cisco Networking Academy — CCNA: Introduction to Networks</p>
+            <p>Jul 2023 – Sep 2023</p>
+          </div>
+        </div>
+
+        <div class="cards--formacion" data-aos="fade-up" data-aos-duration="500">
+          <img class="logo-one" src="./assets/images/logo-one.webp" alt="Logo Alura" />
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion4">Alura — Formación Front-End G5</p>
+            <p>Abr 2023 – Oct 2023</p>
+          </div>
+        </div>
+
+        <div class="cards--formacion" data-aos="fade-down" data-aos-duration="500">
+          <img class="logo-ceh" src="./assets/images/ceh.png" alt="EC-Council CEH" />
+          <div class="container_texto--formacion">
+            <p data-section="formacion" data-value="formacion5">EC-Council — Certified Ethical Hacker (CEH)</p>
+            <p>Especialización en hacking ético y pruebas de penetración.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Proyectos -->
-    <section class="proyectos" id="proyectos">
-      <h1 data-section="proyectos" data-value="title">Projects</h1>
+        <section class="proyectos" id="experiencia">
+      <h1 data-section="proyectos" data-value="title">Experiencia profesional</h1>
 
       <img src="./assets/images/puntos.webp" alt="Decoración puntos" class="puntos1-proyectos" />
-
       <img src="./assets/images/puntos.webp" alt="Decoración puntos" class="puntos2-proyectos" />
+
       <div class="cards_container--proyectos">
-        <!proyecto 1 –>
-          <div class="cards--proyectos card_snake" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
-            <div class="container_imgCard--proyectos">
-              <img src="./assets/images/cap-juegosnake.webp" alt="Proyecto: Juego del ahorcado" />
-            </div>
-            <div class="container_textCard--proyectos">
-              <h2 data-section="proyectos" data-value="title-proyecto1">
-                Juego snake
-              </h2>
-              <p data-section="proyectos" data-value="info-proyecto1">
-                Es el clasico juego de snake o la culebrita donde debes ir
-                comiendo para crecer y evitar chocar contra las paredes o contra
-                tu cola
-              </p>
-            </div>
-            <div class="container_btn--proyectos">
-              <a href="https://kevindoblea1.github.io/snake/" target="_blank">
-                <button class="btn_demo">
-                  <img src="./assets/images/icon-demoProyecto.png" alt="Demostración" />DEMO
-                </button>
-              </a>
-              <a href="https://github.com/kevindoblea1/snake" target="_blank">
-                <button class="btn_repo">
-                  <i class="fa-brands fa-github fa-xl"></i>REPO
-                </button>
-              </a>
-            </div>
+        <div class="cards--proyectos card_snake" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos banner banner-inalma">INALMA</div>
+          <div class="container_textCard--proyectos">
+            <h2>INALMA Inversiones Amalgamadas S.A.</h2>
+            <p class="resume__date">Information Technology Coordinator | Nov 2023 - Presente</p>
+            <ul>
+              <li>Coordina la infraestructura tecnologica y los proyectos de IT.</li>
+              <li>Supervisa servidores, redes y sistemas de virtualizacion.</li>
+              <li>Gestiona politicas de respaldo y recuperacion de datos.</li>
+            </ul>
           </div>
+        </div>
 
-          <!proyecto 2 –>
-            <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up"
-              data-aos-anchor-placement="center-bottom">
-              <div class="container_imgCard--proyectos">
-                <img src="./assets/images/cap-portafolio.webp" alt="Proyecto: Portafolio" />
-              </div>
+        <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos banner banner-bluetek">BLUETEK</div>
+          <div class="container_textCard--proyectos text-portafolio">
+            <h2>BLUETEK</h2>
+            <p class="resume__date">Ingeniero Residente de IT | Sep 2022 - Nov 2023</p>
+            <ul>
+              <li>Soporte tecnico integral a clientes corporativos.</li>
+              <li>Administracion de redes LAN/WAN y servidores.</li>
+              <li>Implementacion de virtualizacion y respaldos de sistemas.</li>
+            </ul>
+          </div>
+        </div>
 
-              <div class="container_textCard--proyectos text-portafolio">
-                <h2 data-section="proyectos" data-value="title-proyecto2">
-                  Portafolio
-                </h2>
-                <p data-section="proyectos" data-value="info-proyecto2">
-                  Mi portafolio web personal, donde se encuentran algunos de mis
-                  proyectos más destacados, mis habilidades técnicas y un poco
-                  sobre mi formación.
-                </p>
-              </div>
-
-              <div class="container_btn--proyectos">
-                <a href="https://kevindoblea1.github.io/alura-porfolio/" target="_blank">
-                  <button class="btn_demo">
-                    <img src="./assets/images/icon-demoProyecto.png" alt="Demostración" />DEMO
-                  </button>
-                </a>
-
-                <a href="https://github.com/kevindoblea1/alura-porfolio" target="_blank">
-                  <button class="btn_repo">
-                    <i class="fa-brands fa-github fa-xl"></i>REPO
-                  </button>
-                </a>
-              </div>
-            </div>
-
-            <!proyecto 3 –>
-              <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up"
-                data-aos-anchor-placement="center-bottom">
-                <div class="container_imgCard--proyectos">
-                  <img src="./assets/images/cap-encriptador.webp" alt="Proyecto: Encriptador" />
-                </div>
-
-                <div class="container_textCard--proyectos">
-                  <h2 data-section="proyectos" data-value="title-proyecto3">
-                    Encriptador de Texto
-                  </h2>
-                  <p data-section="proyectos" data-value="info-proyecto3">
-                    Un ecriptador donde el usuario puede escribir un texto y el
-                    encriptador lo codifica con llaves ya programadas. El
-                    encriptador también permite desencriptar el texto.
-                  </p>
-                </div>
-
-                <div class="container_btn--proyectos">
-                  <a href="https://kevindoblea1.github.io/Challenge-Oracle-One/" target="_blank">
-                    <button class="btn_demo">
-                      <img src="./assets/images/icon-demoProyecto.png" alt="Demostración" />DEMO
-                    </button>
-                  </a>
-
-                  <a href="https://github.com/kevindoblea1/Challenge-Oracle-One" target="_blank">
-                    <button class="btn_repo">
-                      <i class="fa-brands fa-github fa-xl"></i>REPO
-                    </button>
-                  </a>
-                </div>
-              </div>
+        <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos banner banner-excis">EXCIS</div>
+          <div class="container_textCard--proyectos">
+            <h2>Excis Ltd</h2>
+            <p class="resume__date">Ingeniero de Soporte de TI | Nov 2019 - Sep 2022</p>
+            <ul>
+              <li>Resolucion de incidentes de hardware y software.</li>
+              <li>Configuracion y mantenimiento de equipos de red y seguridad.</li>
+              <li>Colaboracion en migraciones y actualizacion de infraestructura.</li>
+            </ul>
+          </div>
+        </div>
       </div>
 
-      <img src="./assets/images/puntos.webp" alt="Decoración puntos" class="puntos1-proyectos" />
-
-      <img src="./assets/images/puntos.webp" alt="Decoración puntos" class="puntos2-proyectos" />
       <div class="cards_container--proyectos">
-        <!proyecto 4 –>
-          <div class="cards--proyectos card_snake" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
-            <div class="container_imgCard--proyectos">
-              <img src="./assets/images/cap-cipher.webp" alt="Proyecto: Juego del ahorcado" />
-            </div>
-            <div class="container_textCard--proyectos">
-              <h2 data-section="proyectos" data-value="title-proyecto4">
-                Cease Cipher
-              </h2>
-              <p data-section="proyectos" data-value="info-proyecto4">
-                Simple encryptor based on the Cipher used by Julio Cesar, which
-                encrypted running the position of the characters
-              </p>
-            </div>
-            <div class="container_btn--proyectos">
-              <a href="https://kevindoblea1.github.io/ceasar-cipher/" target="_blank">
-                <button class="btn_demo">
-                  <img src="./assets/images/icon-demoProyecto.png" alt="Demostración" />DEMO
-                </button>
-              </a>
-              <a href="https://github.com/kevindoblea1/ceasar-cipher" target="_blank">
-                <button class="btn_repo">
-                  <i class="fa-brands fa-github fa-xl"></i>REPO
-                </button>
-              </a>
-            </div>
+        <div class="cards--proyectos card_snake" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos banner banner-multisistemas">Multisistemas</div>
+          <div class="container_textCard--proyectos">
+            <h2>Multisistemas</h2>
+            <p class="resume__date">Especialista en Servicios de Soporte | Jun 2018 - Nov 2019</p>
+            <ul>
+              <li>Soporte tecnico especializado a clientes internos y externos.</li>
+              <li>Administracion de sistemas de copias de seguridad con Backup Exec.</li>
+            </ul>
           </div>
+        </div>
 
-          <!proyecto 5 –>
-            <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up"
-              data-aos-anchor-placement="center-bottom">
-              <div class="container_imgCard--proyectos">
-                <img src="./assets/images/cap-mcrg.webp" alt="Proyecto: Portafolio" />
-              </div>
+        <div class="cards--proyectos card_portafolio" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos banner banner-raf">RAF S.A. de C.V.</div>
+          <div class="container_textCard--proyectos text-portafolio">
+            <h2>RAF S.A. de C.V.</h2>
+            <p class="resume__date">Tecnico en Infraestructura y Soporte | May 2017 - Jun 2018</p>
+            <ul>
+              <li>Mantenimiento preventivo y correctivo de redes y servidores.</li>
+              <li>Apoyo en la implementacion de nuevas tecnologias de infraestructura.</li>
+            </ul>
+          </div>
+        </div>
 
-              <div class="container_textCard--proyectos text-portafolio">
-                <h2 data-section="proyectos" data-value="title-proyecto5">
-                  MCRG
-                </h2>
-                <p data-section="proyectos" data-value="info-proyecto5">
-                  One of my first projects, it is a landing page for the church I
-                  attend, Grace Renewal Christian Ministry.
-                </p>
-              </div>
-
-              <div class="container_btn--proyectos">
-                <a href="https://kevindoblea1.github.io/MCRG/" target="_blank">
-                  <button class="btn_demo">
-                    <img src="./assets/images/icon-demoProyecto.png" alt="Demostración" />DEMO
-                  </button>
-                </a>
-
-                <a href="https://github.com/kevindoblea1/MCRG" target="_blank">
-                  <button class="btn_repo">
-                    <i class="fa-brands fa-github fa-xl"></i>REPO
-                  </button>
-                </a>
-              </div>
-            </div>
-
-            <!proyecto 6 –>
-              <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up"
-                data-aos-anchor-placement="center-bottom">
-                <div class="container_imgCard--proyectos">
-                  <img src="./assets/images/cap-yardsale.webp" alt="Proyecto: Encriptador" />
-                </div>
-
-                <div class="container_textCard--proyectos">
-                  <h2 data-section="proyectos" data-value="title-proyecto6">
-                    Yard Sale
-                  </h2>
-                  <p data-section="proyectos" data-value="info-proyecto6">
-                    Another of my initial projects, it is about an e-commerce, which
-                    was part of one of the platzi courses, on html and css, it is a
-                    humble project but I am fond of it for being my beginnings.
-                  </p>
-                </div>
-
-                <div class="container_btn--proyectos">
-                  <a href="https://kevindoblea1.github.io/yardsale-2/" target="_blank">
-                    <button class="btn_demo">
-                      <img src="./assets/images/icon-demoProyecto.png" alt="Demostración" />DEMO
-                    </button>
-                  </a>
-
-                  <a href="https://github.com/kevindoblea1/yardsale-2" target="_blank">
-                    <button class="btn_repo">
-                      <i class="fa-brands fa-github fa-xl"></i>REPO
-                    </button>
-                  </a>
-                </div>
-              </div>
+        <div class="cards--proyectos card_encriptador" data-aos="zoom-in-up" data-aos-anchor-placement="center-bottom">
+          <div class="container_imgCard--proyectos banner banner-cert">Certificaciones</div>
+          <div class="container_textCard--proyectos">
+            <h2>Certificaciones y cursos</h2>
+            <ul>
+              <li>Curso Basico de Seguridad Informatica para Empresas.</li>
+              <li>Git y GitHub: controle y comparta su codigo.</li>
+              <li>JavaScript en la Web: Manipulacion del DOM.</li>
+              <li>Backup Exec.</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </section>
 
-    <!-- Contacto -->
     <section class="contacto" id="contacto">
-      <h1 data-section="contacto" data-value="title">Contact</h1>
+      <h1 data-section="contacto" data-value="title">Contacto</h1>
 
       <div class="container_box--contacto" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
         <div class="container--contacto">
           <div class="container_text--contacto">
             <p data-section="contacto" data-value="text">
-              Complete the following form and I will contact you as soon as
-              possible.
+              Completa el formulario y me contactaré contigo lo antes posible.
             </p>
           </div>
 
@@ -485,8 +336,7 @@
             <input id="nombre" type="text" name="name" placeholder="Nombre | Name" required />
             <input id="email" type="email" name="email" placeholder="E-mail" required />
             <input id="asunto" type="text" name="affair" placeholder="Asunto | Subject" required />
-            <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message"
-              required></textarea>
+            <textarea id="mensaje" cols="20" rows="4" name="message" placeholder="Mensaje | Message" required></textarea>
 
             <div class="btn_form--contacto">
               <button id="btn-enviar" type="submit" data-section="contacto" data-value="btn-enviar">
@@ -531,16 +381,14 @@
     </div>
   </div>
 
-  <!-- Archivo Js -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-  <!-- Librería de animaciones -->
   <script>
     AOS.init();
   </script>
-
-  <!-- Mi script -->
   <script src="./script.js"></script>
 </body>
-
 </html>
+
+
+
+

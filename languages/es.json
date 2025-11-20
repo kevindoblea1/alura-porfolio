@@ -1,57 +1,46 @@
 {
-    "menu": {
-        "item2": "Sobre mí",
-        "item3": "Habilidades",
-        "item4": "Formación",
-        "item5": "Proyectos",
-        "item6": "Contacto"
-    },
-
-    "home": {
-        "home_text-1": "Hola! Soy",
-        "home_text-3": "🧑‍💻 Ingeniero Informático | <br> 👨‍💻 Programador | <br> 🖥️📱 Diseñador Web |",
-        "parrafo-info": "Soy un apasionado desarrollador web, siempre buscando crear soluciones digitales innovadoras y atractivas. Mi objetivo es seguir perfeccionando mis habilidades técnicas, tanto como desarrollador web y especialista en soporte, para brindar soluciones integrales y de alto nivel a las empresas y clientes que confían en mi trabajo. Estoy emocionado por las oportunidades de crecimiento y desafíos que me esperan en este apasionante mundo de la tecnología.",
-        "cv_button": "Descargar Resumen",
-        "contact_button": "Contactame"
-    },
-
-    "sobre-mi": {
-        "title": "Sobre mí",
-        "texto_sobreMi": "Desarrollador web apasionado por crear soluciones digitales innovadoras y atractivas. Tengo cinco año de experiencia en soporte tecnico para diversas impresas e la industria. Me gusta estar al día de las últimas tendencias y tecnologías en el campo del desarrollo web y aprender constantemente nuevas habilidades. Mi objetivo es seguir perfeccionando mis habilidades de desarrollo, para brindar soluciones integrales y de alto nivel a las empresas y clientes que confían en mi trabajo. Estoy emocionado por las oportunidades de crecimiento y desafíos que me esperan en este apasionante mundo de la tecnología. Poseo buenas soft-skills, comunicacion asertiva, manejo de conflictos, oratoria y algunas otras que me permite adaptarme a equipos de trabajo."
-    },
-
-    "habilidades": {
-        "title": "Habilidades"
-    },
-
-    "formacion": {
-        "title": "Formación",
-        "formacion1": "Ingeniería Informática",
-        "tiempo-formacion1": "2018 - En curso",
-        "formacion2": "Desarrollo Web Front-end",
-        "tiempo-formacion2": "2023 - 2024",
-        "formacion3": "Cisco NetAcad - CCNA V7"
-    },
-
-    "proyectos": {
-        "title": "Proyectos",
-        "title-proyecto1": "Juego snake",
-        "info-proyecto1": "Es el clasico juego de snake o la culebrita donde debes ir comiendo para crecer y evitar chocar contra las paredes o contra tu cola.",
-        "title-proyecto2": "Portafolio",
-        "info-proyecto2": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
-        "title-proyecto3": "Encriptador de Texto",
-        "info-proyecto3": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto.",
-        "title-proyecto4": "Cifrado Cesar",
-        "info-proyecto4": "Es el clasico juego de snake o la culebrita donde debes ir comiendo para crecer y evitar chocar contra las paredes o contra tu cola.",
-        "title-proyecto5": "Portafolio",
-        "info-proyecto5": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
-        "title-proyecto6": "Encriptador de Texto",
-        "info-proyecto6": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto."
-    },
-
-    "contacto": {
-        "title": "Contacto",
-        "text": "Completa el siguiente formulario y me pondré en contacto contigo lo antes posible.",
-        "btn-enviar": "Enviar"
-    }
+  "menu": {
+    "item1": "Home",
+    "item2": "Perfil",
+    "item3": "Aptitudes",
+    "item4": "Educación",
+    "item5": "Experiencia",
+    "item6": "Contacto"
+  },
+  "home": {
+    "home_text1": "¡Hola! Soy",
+    "home_text3": "Information Technology Coordinator • Soporte & Infraestructura • Ingeniería en Informática (en curso)",
+    "home_summary": "Ingeniero en Tecnologías de la Información con experiencia en gestión de infraestructura empresarial, Active Directory y virtualización con VMware ESXi. Lidero operaciones de soporte, administración de servidores, políticas de respaldo y optimización de centros de datos. Actualmente curso Ingeniería en Informática en CEUTEC y continúo formándome en desarrollo web y redes.",
+    "cv_button": "Ver resumen completo",
+    "contact_button": "Contáctame",
+    "contact_location": "San Pedro Sula, Cortés, Honduras",
+    "contact_phone": "Tel: +504-9469-7805",
+    "contact_email": "Email: kevin.alvarenga93@gmail.com"
+  },
+  "sobre-mi": {
+    "title": "Perfil profesional",
+    "subtitle": "Resumen",
+    "texto_sobreMi": "Ingeniero en Tecnologías de la Información especializado en soporte técnico, administración de servidores, implementación de seguridad y operación de centros de datos. Experto en Active Directory y virtualización VMware ESXi, con experiencia en migraciones y mantenimiento de máquinas virtuales. Actualmente curso Ingeniería en Informática en CEUTEC y me formo continuamente en desarrollo web, ciencias computacionales y redes gracias a programas de Platzi, Alura y Cisco Networking Academy. Mi objetivo profesional es crecer como ingeniero de software y aportar soluciones tecnológicas que agreguen valor a las organizaciones."
+  },
+  "habilidades": {
+    "title": "Aptitudes técnicas y blandas"
+  },
+  "formacion": {
+    "title": "Educación y formación",
+    "formacion1": "CEUTEC — Ingeniería Informática (en curso)",
+    "tiempo-formacion1": "Formación en sistemas operativos, programación y redes.",
+    "formacion2": "CEUTEC — Tecnicatura en Desarrollo de Aplicaciones Web",
+    "tiempo-formacion2": "2023 – 2025",
+    "formacion3": "Cisco Networking Academy — CCNA: Introduction to Networks",
+    "formacion4": "Alura — Formación Front-End G5",
+    "formacion5": "EC-Council — Certified Ethical Hacker (CEH)"
+  },
+  "proyectos": {
+    "title": "Experiencia profesional"
+  },
+  "contacto": {
+    "title": "Contacto",
+    "text": "Completa el formulario y me contactaré contigo lo antes posible.",
+    "btn-enviar": "Enviar"
+  }
 }

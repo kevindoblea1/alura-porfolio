@@ -66,11 +66,25 @@ div.btn {
 .container_image-home {
     width: 55%;
     padding-right: 4rem;
+    position: relative;
 }
 
-/*.image_home {
+.image_home {
+    width: 100%;
+    height: auto;
     object-fit: contain;
-}*/
+}
+.puntos-fotos {
+    position: absolute;
+    left: 102%;
+    top: 0;
+    height: 100%;
+    width: auto;
+    max-height: 100%;
+    display: block;
+    object-fit: contain;
+    margin-left: 1rem;
+}
 
 .home_info {
     width: 40%;
@@ -236,8 +250,8 @@ div.btn {
 }
 
 .cards_container--habilidades {
-    grid-template-columns: 13rem 13rem 13rem 13rem;
-    grid-template-rows: 14rem 14rem;
+    grid-template-columns: repeat(4, 15.5rem);
+    grid-template-rows: repeat(2, 17rem);
     padding: 0;
     margin-top: 2rem;
 }
@@ -263,6 +277,18 @@ div.btn {
 .formacion h1 {
     padding-top: 8rem;
     font-size: 3rem;
+}
+
+.cards_container--formacion {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+    overflow: visible;
+}
+
+.cards--formacion {
+    min-width: 32rem;
 }
 
 .cards--formacion:hover {

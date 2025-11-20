@@ -276,12 +276,13 @@ span+span {
     height: auto;
     display: flex;
     justify-content: center;
+    position: relative;
     padding: 12rem 0 5rem 0;
 }
 
 .image_home {
     max-width: 75%;
-    max-height: 75%;
+    height: auto;
     transition: .4s;
     animation: image 2s;
     background-color: var(--eerie-black);
@@ -347,7 +348,30 @@ span+span {
 }
 
 .container_parrafo-info {
-    display: none;
+    display: block;
+    margin-top: 1rem;
+    color: var(--light-grey);
+    font-family: 'Cooper Hewitt';
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+
+.home_contact {
+    list-style: none;
+    padding: 1rem 0 0 0;
+    margin: 0;
+    color: var(--light-grey);
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.home_contact a {
+    color: var(--beaver);
+    text-decoration: none;
+}
+
+.home_contact a:hover {
+    text-decoration: underline;
 }
 
 .cv_button {
@@ -400,7 +424,7 @@ span+span {
     text-align: center;
     color: var(--white);
     font-family: 'Cooper Hewitt';
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     letter-spacing: .1rem;
     padding-top: 6rem;
 }
@@ -424,11 +448,12 @@ span+span {
 .texto_sobreMi {
     color: var(--light-grey);
     font-family: 'Cooper Hewitt';
-    font-size: 1.5rem;
-    letter-spacing: .1rem;
+    font-size: 1.6rem;
+    letter-spacing: .05rem;
     white-space: pre-line;
     text-align: justify;
-    line-height: 2.2rem;
+    line-height: 2.6rem;
+    max-width: 70ch;
 }
 
 .container_image-sobreMi {
@@ -490,8 +515,10 @@ span+span {
     justify-content: center;
     text-align: center;
     filter: saturate(40%);
-    width: 13rem;
-    height: 14rem;
+    width: 14rem;
+    height: 15rem;
+    padding: 0.8rem;
+    word-wrap: break-word;
 }
 
 .cards--habilidades img {
@@ -499,12 +526,21 @@ span+span {
     width: 9rem;
 }
 
+.soft-icon {
+    font-size: 4rem;
+    color: var(--beaver);
+    margin-top: .7rem;
+}
+
 .cards--habilidades p {
     color: var(--white);
     font-family: 'Cooper Hewitt';
-    letter-spacing: .1rem;
-    font-size: 1.4rem;
+    letter-spacing: .05rem;
+    font-size: 1.35rem;
     margin-bottom: .7rem;
+    line-height: 1.6rem;
+    white-space: normal;
+    word-break: break-word;
 }
 
 /* Formación */
@@ -541,9 +577,10 @@ span+span {
     align-items: center;
     text-align: center;
     width: 32rem;
-    height: 33rem;
+    min-height: 33rem;
+    height: auto;
     margin: 0 1rem 2rem 1rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     justify-content: space-between;
 }
 
@@ -553,6 +590,8 @@ span+span {
 
 .container_texto--formacion {
     margin-bottom: 1.3rem;
+    width: 100%;
+    overflow: hidden;
 }
 
 img.logo-ceutec {
@@ -567,6 +606,18 @@ img.logo-one {
     margin: 7rem 0 6rem 0;
 }
 
+img.logo-tdw {
+    width: 21rem;
+    margin: 3rem 0 2.5rem 0;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+img.logo-ceh {
+    width: 19rem;
+    margin: 3rem 0 2rem 0;
+}
+
 img.logo-sena {
     width: 18rem;
     margin: 2.4rem 0;
@@ -579,6 +630,11 @@ img.logo-sena {
     font-size: 1.8rem;
     font-weight: bold;
     margin-bottom: .7rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
 }
 
 .cards--formacion p:nth-child(2) {
@@ -586,6 +642,11 @@ img.logo-sena {
     font-family: 'Cooper Hewitt';
     letter-spacing: .1rem;
     font-size: 1.4rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+    width: 100%;
 }
 
 /* Proyectos */
@@ -640,12 +701,36 @@ img.logo-sena {
 .container_imgCard--proyectos {
     margin-bottom: 1rem;
     border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .container_imgCard--proyectos img {
     width: 100%;
     border-radius: 20px 20px 0 0;
 }
+
+.banner {
+    width: 100%;
+    height: 14rem;
+    border-radius: 20px 20px 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Cooper Hewitt';
+    font-size: 2rem;
+    letter-spacing: 0.08rem;
+    color: var(--white);
+    text-transform: uppercase;
+}
+
+.banner-inalma { background: linear-gradient(135deg, #1f3b5c, #2b4d73); }
+.banner-bluetek { background: linear-gradient(135deg, #1f2c3f, #2a3f5a); }
+.banner-excis { background: linear-gradient(135deg, #1c3656, #243f66); }
+.banner-multisistemas { background: linear-gradient(135deg, #3b2a46, #52345c); }
+.banner-raf { background: linear-gradient(135deg, #2a4b39, #3b6b52); }
+.banner-cert { background: linear-gradient(135deg, #1f2f4b, #2c4368); }
 
 .container_textCard--proyectos {
     padding: 0 2rem;
@@ -667,6 +752,18 @@ img.logo-sena {
     letter-spacing: .1rem;
     font-size: 1.4rem;
     margin-top: 1rem;
+}
+
+.container_textCard--proyectos ul {
+    color: var(--light-grey);
+    font-family: 'Cooper Hewitt';
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+    margin: 0.8rem 0 0 1.6rem;
+}
+
+.container_textCard--proyectos li {
+    margin-bottom: 0.3rem;
 }
 
 .container_btn--proyectos {
@@ -997,7 +1094,8 @@ footer {
     }
 }
 .puntos-fotos {
-    max-height: 75%;  
+    max-height: 100%;
+    height: auto;
 }
 /* Estilo para pantallas con ancho menor a 768px */
 @media (max-width: 767px) {

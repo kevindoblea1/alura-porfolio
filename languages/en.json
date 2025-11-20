@@ -1,57 +1,47 @@
-{
-    "menu": {
-        "item2": "About me",
-        "item3": "Skills",
-        "item4": "Training",
-        "item5": "Projects",
-        "item6": "Contact"
-    },
-
-    "home": {
-        "home_text-1": "Hello! Am",
-        "home_text-3": "🧑‍💻 Computer Engineer | <br> 👨‍💻 Programmer | <br> 🖥️📱 Web Designer |",
-        "parrafo-info": "I am a passionate web developer, always looking to create innovative and engaging digital solutions. My goal is to continue honing my technical skills, both as a web developer and support specialist, to provide comprehensive and high-level solutions to companies and clients who trust in my work. I am excited about the growth opportunities and challenges that await me in this exciting world of technology.",
-        "cv_button": "Download Resume",
-        "contact_button": "Contact me"
-    },
-
-    "sobre-mi": {
-        "title": "About me",
-        "texto_sobreMi": "Web developer passionate about creating innovative and engaging digital solutions. I have five years of experience in technical support for various companies and the industry. I like to keep up with the latest trends and technologies in the field of web development and constantly learn new skills. My goal is to continue perfecting my development skills, to provide comprehensive and high-level solutions to companies and clients who trust my work. I am excited about the growth opportunities and challenges that await me in this exciting world of technology. I have good soft-skills, assertive communication, conflict management, oratory and some others that allow me to adapt to work teams."
-    },
-
-    "habilidades": {
-        "title": "Skills"
-    },
-
-    "formacion": {
-        "title": "Training",
-        "formacion1": "Informatics Engineering",
-        "tiempo-formacion1": "2018 - En curso",
-        "formacion2": "Front End Web Development",
-        "tiempo-formacion2": "2023 - 2024",
-        "formacion3": "Cisco NetAcad - CCNA V7"
-    },
-
-    "proyectos": {
-        "title": "Projects",
-        "title-proyecto1": "Snake Game",
-        "info-proyecto1": "It is the classic game of snake where you must eat to grow and avoid hitting the walls or against your tail.",
-        "title-proyecto2": "Portafolio",
-        "info-proyecto2": "My personal web portfolio, where you can find some of my most outstanding projects, my technical skills and a little about my training.",
-        "title-proyecto3": "Text Encryptor",
-        "info-proyecto3": "An encryptor where the user can write a text and the encryptor encodes it with already programmed keys. The encryptor also allows to decrypt the text.",
-        "title-proyecto4": "Cifrado Cesar",
-        "info-proyecto4": "Es el clasico juego de snake o la culebrita donde debes ir comiendo para crecer y evitar chocar contra las paredes o contra tu cola.",
-        "title-proyecto5": "Portafolio",
-        "info-proyecto5": "Mi portafolio web personal, donde se encuentran algunos de mis proyectos más destacados, mis habilidades técnicas y un poco sobre mi formación.",
-        "title-proyecto6": "Encriptador de Texto",
-        "info-proyecto6": "Un ecriptador donde el usuario puede escribir un texto y el encriptador lo codifica con llaves ya programadas. El encriptador también permite desencriptar el texto."
-    },
-
-    "contacto": {
-        "title": "Contact",
-        "text": "Complete the following form and I will contact you as soon as possible.",
-        "btn-enviar": "Send"
-    }
+﻿{
+  "menu": {
+    "item1": "Home",
+    "item2": "Profile",
+    "item3": "Skills",
+    "item4": "Education",
+    "item5": "Experience",
+    "item6": "Contact"
+  },
+  "home": {
+    "home_text1": "Hello! I am",
+    "home_text3": "Information Technology Coordinator â€¢ Support & Infrastructure â€¢ B.S. Computer Engineering (in progress)",
+    "home_summary": "Information Technology engineer experienced in enterprise infrastructure, Active Directory, and VMware ESXi virtualization. I lead support operations, server administration, backup policies, and data center optimization. Currently studying Computer Engineering at CEUTEC while continuing training in web development and networking.",
+    "cv_button": "View full rÃ©sumÃ©",
+    "contact_button": "Contact me",
+    "contact_location": "San Pedro Sula, CortÃ©s, Honduras",
+    "contact_phone": "Phone: +504-9469-7805",
+    "contact_email": "Email: kevin.alvarenga93@gmail.com"
+  },
+  "sobre-mi": {
+    "title": "Professional Profile",
+    "subtitle": "Summary",
+    "texto_sobreMi": "Information Technology engineer focused on technical support, server administration, security implementation, and data center operations. Expert in Active Directory and VMware ESXi virtualization with experience migrating and maintaining virtual machines. Currently pursuing Computer Engineering at CEUTEC and continuously training in web development, computer science, and networking through Platzi, Alura, and Cisco Networking Academy. My goal is to grow as a software engineer and deliver technology solutions that add value to organizations."
+  },
+  "habilidades": {
+    "title": "Technical and soft skills"
+  },
+  "formacion": {
+    "title": "Education & training",
+    "formacion1": "CEUTEC â€” Computer Engineering (in progress)",
+    "tiempo-formacion1": "Focus on operating systems, programming, and networking.",
+    "formacion2": "CEUTEC â€” Web Application Development Technician",
+    "tiempo-formacion2": "2023 â€“ 2025",
+    "formacion3": "Cisco Networking Academy â€” CCNA: Introduction to Networks",
+    "formacion4": "Alura â€” Front-End Training G5",
+    "formacion5": "EC-Council â€” Certified Ethical Hacker (CEH)"
+  },
+  "proyectos": {
+    "title": "Professional experience"
+  },
+  "contacto": {
+    "title": "Contact",
+    "text": "Fill out the form and I will reach out as soon as possible.",
+    "btn-enviar": "Send"
+  }
 }
+
