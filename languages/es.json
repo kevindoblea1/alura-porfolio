@@ -1,46 +1,82 @@
-{
+﻿{
   "menu": {
     "item1": "Home",
     "item2": "Perfil",
     "item3": "Aptitudes",
-    "item4": "Educación",
+    "item4": "Educacion",
     "item5": "Experiencia",
     "item6": "Contacto"
   },
   "home": {
-    "home_text1": "¡Hola! Soy",
-    "home_text3": "Information Technology Coordinator • Soporte & Infraestructura • Ingeniería en Informática (en curso)",
-    "home_summary": "Ingeniero en Tecnologías de la Información con experiencia en gestión de infraestructura empresarial, Active Directory y virtualización con VMware ESXi. Lidero operaciones de soporte, administración de servidores, políticas de respaldo y optimización de centros de datos. Actualmente curso Ingeniería en Informática en CEUTEC y continúo formándome en desarrollo web y redes.",
+    "home_text1": "Hola! Soy",
+    "home_text3": "Information Technology Coordinator - Soporte e Infraestructura - Ingenieria en Informatica (en curso)",
+    "home_summary": "Ingeniero en Tecnologias de la Informacion con experiencia en gestion de infraestructura empresarial, Active Directory y virtualizacion con VMware ESXi. Lidero operaciones de soporte, administracion de servidores, politicas de respaldo y optimizacion de centros de datos. Actualmente curso Ingenieria en Informatica en CEUTEC y continuo formandome en desarrollo web y redes.",
     "cv_button": "Ver resumen completo",
-    "contact_button": "Contáctame",
-    "contact_location": "San Pedro Sula, Cortés, Honduras",
+    "contact_button": "Contactame",
+    "contact_location": "San Pedro Sula, Cortes, Honduras",
     "contact_phone": "Tel: +504-9469-7805",
     "contact_email": "Email: kevin.alvarenga93@gmail.com"
   },
   "sobre-mi": {
     "title": "Perfil profesional",
     "subtitle": "Resumen",
-    "texto_sobreMi": "Ingeniero en Tecnologías de la Información especializado en soporte técnico, administración de servidores, implementación de seguridad y operación de centros de datos. Experto en Active Directory y virtualización VMware ESXi, con experiencia en migraciones y mantenimiento de máquinas virtuales. Actualmente curso Ingeniería en Informática en CEUTEC y me formo continuamente en desarrollo web, ciencias computacionales y redes gracias a programas de Platzi, Alura y Cisco Networking Academy. Mi objetivo profesional es crecer como ingeniero de software y aportar soluciones tecnológicas que agreguen valor a las organizaciones."
+    "texto_sobreMi": "Ingeniero en Tecnologias de la Informacion especializado en soporte tecnico, administracion de servidores, implementacion de seguridad y operacion de centros de datos. Experto en Active Directory y virtualizacion VMware ESXi, con experiencia en migraciones y mantenimiento de maquinas virtuales. Actualmente curso Ingenieria en Informatica en CEUTEC y me formo continuamente en desarrollo web, ciencias computacionales y redes gracias a programas de Platzi, Alura y Cisco Networking Academy. Mi objetivo profesional es crecer como ingeniero de software y aportar soluciones tecnologicas que agreguen valor a las organizaciones."
   },
   "habilidades": {
-    "title": "Aptitudes técnicas y blandas"
+    "title": "Aptitudes tecnicas y blandas",
+    "skill1": "Comunicacion asertiva",
+    "skill2": "Trabajo en equipo",
+    "skill3": "Resolucion de problemas",
+    "skill4": "Gestion de proyectos",
+    "skill5": "Adaptabilidad",
+    "skill6": "Orientacion al cliente",
+    "skill7": "Atencion al detalle",
+    "skill8": "Aprendizaje continuo"
   },
   "formacion": {
-    "title": "Educación y formación",
-    "formacion1": "CEUTEC — Ingeniería Informática (en curso)",
-    "tiempo-formacion1": "Formación en sistemas operativos, programación y redes.",
-    "formacion2": "CEUTEC — Tecnicatura en Desarrollo de Aplicaciones Web",
-    "tiempo-formacion2": "2023 – 2025",
-    "formacion3": "Cisco Networking Academy — CCNA: Introduction to Networks",
-    "formacion4": "Alura — Formación Front-End G5",
-    "formacion5": "EC-Council — Certified Ethical Hacker (CEH)"
+    "title": "Educacion y formacion",
+    "formacion1": "CEUTEC - Ingenieria Informatica (en curso)",
+    "tiempo-formacion1": "Formacion en sistemas operativos, programacion y redes.",
+    "formacion2": "CEUTEC - Tecnicatura en Desarrollo de Aplicaciones Web",
+    "tiempo-formacion2": "2023 - 2025",
+    "formacion3": "Cisco Networking Academy - CCNA: Introduction to Networks",
+    "formacion4": "Alura - Formacion Front-End G5",
+    "formacion5": "EC-Council - Certified Ethical Hacker (CEH)"
   },
   "proyectos": {
-    "title": "Experiencia profesional"
+    "title": "Experiencia profesional",
+    "exp1_company": "INALMA Inversiones Amalgamadas S.A.",
+    "exp1_role": "Information Technology Coordinator | Nov 2023 - Presente",
+    "exp1_b1": "Coordina la infraestructura tecnologica y los proyectos de IT.",
+    "exp1_b2": "Supervisa servidores, redes y sistemas de virtualizacion.",
+    "exp1_b3": "Gestiona politicas de respaldo y recuperacion de datos.",
+    "exp2_company": "BLUETEK",
+    "exp2_role": "Ingeniero Residente de IT | Sep 2022 - Nov 2023",
+    "exp2_b1": "Soporte tecnico integral a clientes corporativos.",
+    "exp2_b2": "Administracion de redes LAN/WAN y servidores.",
+    "exp2_b3": "Implementacion de virtualizacion y respaldos de sistemas.",
+    "exp3_company": "Excis Ltd",
+    "exp3_role": "Ingeniero de Soporte de TI | Nov 2019 - Sep 2022",
+    "exp3_b1": "Resolucion de incidentes de hardware y software.",
+    "exp3_b2": "Configuracion y mantenimiento de equipos de red y seguridad.",
+    "exp3_b3": "Colaboracion en migraciones y actualizacion de infraestructura.",
+    "exp4_company": "Multisistemas",
+    "exp4_role": "Especialista en Servicios de Soporte | Jun 2018 - Nov 2019",
+    "exp4_b1": "Soporte tecnico especializado a clientes internos y externos.",
+    "exp4_b2": "Administracion de sistemas de copias de seguridad con Backup Exec.",
+    "exp5_company": "RAF S.A. de C.V.",
+    "exp5_role": "Tecnico en Infraestructura y Soporte | May 2017 - Jun 2018",
+    "exp5_b1": "Mantenimiento preventivo y correctivo de redes y servidores.",
+    "exp5_b2": "Apoyo en la implementacion de nuevas tecnologias de infraestructura.",
+    "cert_company": "Certificaciones y cursos",
+    "cert_b1": "Curso Basico de Seguridad Informatica para Empresas.",
+    "cert_b2": "Git y GitHub: controle y comparta su codigo.",
+    "cert_b3": "JavaScript en la Web: Manipulacion del DOM.",
+    "cert_b4": "Backup Exec."
   },
   "contacto": {
     "title": "Contacto",
-    "text": "Completa el formulario y me contactaré contigo lo antes posible.",
+    "text": "Completa el formulario y me contactare contigo lo antes posible.",
     "btn-enviar": "Enviar"
   }
 }

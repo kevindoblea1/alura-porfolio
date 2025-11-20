@@ -9,11 +9,11 @@
   },
   "home": {
     "home_text1": "Hello! I am",
-    "home_text3": "Information Technology Coordinator â€¢ Support & Infrastructure â€¢ B.S. Computer Engineering (in progress)",
+    "home_text3": "Information Technology Coordinator - Support & Infrastructure - B.S. Computer Engineering (in progress)",
     "home_summary": "Information Technology engineer experienced in enterprise infrastructure, Active Directory, and VMware ESXi virtualization. I lead support operations, server administration, backup policies, and data center optimization. Currently studying Computer Engineering at CEUTEC while continuing training in web development and networking.",
-    "cv_button": "View full rÃ©sumÃ©",
+    "cv_button": "View full resume",
     "contact_button": "Contact me",
-    "contact_location": "San Pedro Sula, CortÃ©s, Honduras",
+    "contact_location": "San Pedro Sula, Cortes, Honduras",
     "contact_phone": "Phone: +504-9469-7805",
     "contact_email": "Email: kevin.alvarenga93@gmail.com"
   },
@@ -23,20 +23,56 @@
     "texto_sobreMi": "Information Technology engineer focused on technical support, server administration, security implementation, and data center operations. Expert in Active Directory and VMware ESXi virtualization with experience migrating and maintaining virtual machines. Currently pursuing Computer Engineering at CEUTEC and continuously training in web development, computer science, and networking through Platzi, Alura, and Cisco Networking Academy. My goal is to grow as a software engineer and deliver technology solutions that add value to organizations."
   },
   "habilidades": {
-    "title": "Technical and soft skills"
+    "title": "Technical and soft skills",
+    "skill1": "Assertive communication",
+    "skill2": "Teamwork",
+    "skill3": "Problem solving",
+    "skill4": "Project management",
+    "skill5": "Adaptability",
+    "skill6": "Customer focus",
+    "skill7": "Attention to detail",
+    "skill8": "Continuous learning"
   },
   "formacion": {
     "title": "Education & training",
-    "formacion1": "CEUTEC â€” Computer Engineering (in progress)",
+    "formacion1": "CEUTEC - Computer Engineering (in progress)",
     "tiempo-formacion1": "Focus on operating systems, programming, and networking.",
-    "formacion2": "CEUTEC â€” Web Application Development Technician",
-    "tiempo-formacion2": "2023 â€“ 2025",
-    "formacion3": "Cisco Networking Academy â€” CCNA: Introduction to Networks",
-    "formacion4": "Alura â€” Front-End Training G5",
-    "formacion5": "EC-Council â€” Certified Ethical Hacker (CEH)"
+    "formacion2": "CEUTEC - Web Application Development Technician",
+    "tiempo-formacion2": "2023 - 2025",
+    "formacion3": "Cisco Networking Academy - CCNA: Introduction to Networks",
+    "formacion4": "Alura - Front-End Training G5",
+    "formacion5": "EC-Council - Certified Ethical Hacker (CEH)"
   },
   "proyectos": {
-    "title": "Professional experience"
+    "title": "Professional experience",
+    "exp1_company": "INALMA Inversiones Amalgamadas S.A.",
+    "exp1_role": "Information Technology Coordinator | Nov 2023 - Present",
+    "exp1_b1": "Coordinating IT infrastructure and projects.",
+    "exp1_b2": "Overseeing servers, networks, and virtualization platforms.",
+    "exp1_b3": "Managing backup and recovery policies.",
+    "exp2_company": "BLUETEK",
+    "exp2_role": "Resident IT Engineer | Sep 2022 - Nov 2023",
+    "exp2_b1": "Comprehensive technical support for corporate clients.",
+    "exp2_b2": "Administration of LAN/WAN networks and servers.",
+    "exp2_b3": "Implemented virtualization and backup solutions.",
+    "exp3_company": "Excis Ltd",
+    "exp3_role": "IT Support Engineer | Nov 2019 - Sep 2022",
+    "exp3_b1": "Hardware and software incident resolution.",
+    "exp3_b2": "Network and security equipment maintenance.",
+    "exp3_b3": "Collaborated on system migrations and infrastructure upgrades.",
+    "exp4_company": "Multisistemas",
+    "exp4_role": "Support Specialist | Jun 2018 - Nov 2019",
+    "exp4_b1": "Specialized technical support for internal and external clients.",
+    "exp4_b2": "Backup Exec administration.",
+    "exp5_company": "RAF S.A. de C.V.",
+    "exp5_role": "Infrastructure and Support Technician | May 2017 - Jun 2018",
+    "exp5_b1": "Preventive and corrective maintenance of networks and servers.",
+    "exp5_b2": "Support implementing new infrastructure technologies.",
+    "cert_company": "Certifications and courses",
+    "cert_b1": "Basic Information Security for Businesses.",
+    "cert_b2": "Git and GitHub: control and share your code.",
+    "cert_b3": "JavaScript on the Web: DOM manipulation.",
+    "cert_b4": "Backup Exec."
   },
   "contacto": {
     "title": "Contact",
@@ -44,4 +80,3 @@
     "btn-enviar": "Send"
   }
 }
-
