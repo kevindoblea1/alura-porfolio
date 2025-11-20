@@ -17,6 +17,31 @@ body {
     color: var(--light-grey);
 }
 
+.lang-switch {
+    display: flex;
+    justify-content: flex-end;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.lang-btn {
+    padding: 0.4rem 1rem;
+    border-radius: 8px;
+    border: 1px solid var(--beaver);
+    background: transparent;
+    color: var(--light-grey);
+    cursor: pointer;
+}
+
+.lang-btn.active {
+    background: var(--beaver);
+    color: var(--black);
+}
+
+.resume__lang {
+    display: block;
+}
+
 a {
     color: var(--beaver);
 }
